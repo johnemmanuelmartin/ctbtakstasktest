@@ -129,7 +129,7 @@ securityContext:
   runAsGroup: 1000
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 8080
 
 nodeSelector: {}
